@@ -1,22 +1,39 @@
-<!DOCTYPE HTML>
+/*requirements for resume styling assignmet
 
-<head>
-  <title>Melina Maldonado Resume</title>
-  <meta charset="utf-8">
-  <meta name="author" content="Melina M.">
-  <meta name="keywords" content="basic website">
-  <link href="css/style.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Pirata+One|UnifrakturMaguntia"
-  rel="stylesheet">
-</head>
+Create 2 links
+Set the color of the links and remove the underline. - 10 points
+Style :hover effect. - 10 points
+Use one or two custom fonts - 10 points
+Make sure you use an external stylesheet using the tag. - 10 Points
+Style 2 elements (ie a, p, b, address, etc) - 10 points
+Create and use 2 id - 20 points
+Create and use 5 classes, use the classes more than once - 25 points
+Make sure you validate your work (css validator, html validator) - 5 points
 
-<body>
+*/
+
+.column {
+    float: left;
+}
+
+.left {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+.right {
+  width: 70%;
+}
+
 
 h1 {
-  font-family: UnifrakturMaguntia
+  font-family: UnifrakturMaguntia;
   color: white
 }
 
-</body>
-
-</html>
+h2 {
+  font-family: Pirata One;
+  color: white;
+  background-color: black;
+}
