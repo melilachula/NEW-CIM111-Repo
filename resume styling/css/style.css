@@ -15,7 +15,8 @@ Make sure you validate your work (css validator, html validator) - 5 points
 .column {
     float: left;
     background-color: rgb(194,242,255);
-    margin: 0;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 .left {
