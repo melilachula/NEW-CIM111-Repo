@@ -38,4 +38,7 @@ h2 {
   font-size: 60px;
   color: white;
   background-color: blue;
+  width:1em;
+  height: 100vh;
+  margin: 0;
 }
