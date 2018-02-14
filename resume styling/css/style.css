@@ -38,6 +38,7 @@ Make sure you validate your work (css validator, html validator) - 5 points
 
 h1 {
   font-family: UnifrakturMaguntia;
+  font-size: 100px;
   color: pink;
 }
 
