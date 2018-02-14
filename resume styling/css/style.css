@@ -27,6 +27,14 @@ Make sure you validate your work (css validator, html validator) - 5 points
   width: 70%;
 }
 
+.righttop {
+  background-color: blue;
+}
+
+.rightbottom {
+  background-color: white;
+}
+
 
 h1 {
   font-family: UnifrakturMaguntia;
