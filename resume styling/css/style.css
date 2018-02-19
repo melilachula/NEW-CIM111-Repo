@@ -23,28 +23,62 @@ Make sure you validate your work (css validator, html validator) - 5 points
   padding: 0;
 }
 
-.right {
-  width: 70%;
-}
-
 .righttop {
   background-color: blue;
+  width: 70%;
+  text-align: center;
 }
 
 .rightbottom {
   background-color: white;
+  width: 70%;
+  text-align: left;
 }
 
 
 h1 {
   font-family: UnifrakturMaguntia;
-  font-size: 100px;
+  font-size: 110px;
   color: pink;
+  text-align: center;
 }
 
-h2 {
+p {
+  margin-left: 20px;
+}
+
+.centeralign {
+  font-family: Pirata One;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
+
+ul {
+    list-style: none; /* Remove list bullets */
+}
+
+.leftalign {
   font-family: Pirata One;
   font-size: 40px;
   color: white;
   background-color: blue;
+  text-indent: inherit;
+}
+
+/* unvisited link */ a:link { color: black; text-decoration: none;}
+/* visited link */ a:visited { color: black; text-decoration: none;}
+
+img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin-left: 25px;
+  margin-top: 34px;
+}
+
+a:hover {
+    background-color: pink;
+    color: white;
 }
